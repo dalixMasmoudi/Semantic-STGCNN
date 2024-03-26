@@ -1,0 +1,180 @@
+SCENE gates_6:
+min_x: -18.37, max_x: 20.78
+min_y: 2.16, max_y: 49.05
+range_x: 39.15, range_y: 46.89
+
+
+SCENE bookstore_3:
+min_x: -27.49, max_x: 23.4
+min_y: -20.88, max_y: 20.66
+range_x: 50.89, range_y: 41.54
+
+
+SCENE nexus_7:
+min_x: -26.33, max_x: 26.57
+min_y: -17.92, max_y: 52.12
+range_x: 52.9, range_y: 70.04
+
+
+SCENE gates_3:
+min_x: -24.28, max_x: 24.64
+min_y: -18.14, max_y: 49.91
+range_x: 48.92, range_y: 68.05
+
+
+SCENE gates_0:
+min_x: -27.82, max_x: 23.9
+min_y: -2.37, max_y: 36.63
+range_x: 51.72, range_y: 39.0
+
+
+SCENE coupa_3:
+min_x: -17.47, max_x: 31.69
+min_y: -13.54, max_y: 13.66
+range_x: 49.16, range_y: 27.2
+
+
+SCENE deathCircle_1:
+min_x: -27.53, max_x: 26.73
+min_y: -20.67, max_y: 52.83
+range_x: 54.26, range_y: 73.5
+
+
+SCENE deathCircle_0:
+min_x: -28.63, max_x: 36.74
+min_y: -21.3, max_y: 55.72
+range_x: 65.37, range_y: 77.02
+
+
+SCENE hyang_4:
+min_x: -23.87, max_x: 20.34
+min_y: -18.35, max_y: 6.43
+range_x: 44.21, range_y: 24.78
+
+
+SCENE gates_1:
+min_x: -25.91, max_x: 26.47
+min_y: -19.67, max_y: 53.15
+range_x: 52.38, range_y: 72.82
+
+
+SCENE nexus_1:
+min_x: -30.64, max_x: 30.8
+min_y: -22.78, max_y: 59.78
+range_x: 61.44, range_y: 82.56
+
+
+SCENE hyang_9:
+min_x: -0.21, max_x: 10.4
+min_y: -14.4, max_y: -13.48
+range_x: 10.61, range_y: 0.92
+
+
+SCENE nexus_0:
+min_x: -30.86, max_x: 26.04
+min_y: -23.21, max_y: 62.13
+range_x: 56.9, range_y: 85.34
+
+
+SCENE gates_8:
+min_x: -31.66, max_x: 25.24
+min_y: 4.17, max_y: 27.35
+range_x: 56.9, range_y: 23.18
+
+
+SCENE nexus_4:
+min_x: -32.53, max_x: 25.58
+min_y: -21.63, max_y: 51.6
+range_x: 58.11, range_y: 73.23
+
+
+SCENE hyang_5:
+min_x: -20.76, max_x: 21.74
+min_y: -15.19, max_y: 42.38
+range_x: 42.5, range_y: 57.57
+
+
+SCENE bookstore_0:
+min_x: -26.97, max_x: 26.95
+min_y: -20.23, max_y: 20.52
+range_x: 53.92, range_y: 40.75
+
+
+SCENE deathCircle_4:
+min_x: -27.09, max_x: 22.3
+min_y: -13.29, max_y: 51.63
+range_x: 49.39, range_y: 64.92
+
+
+SCENE bookstore_1:
+min_x: -28.1, max_x: 27.88
+min_y: -21.26, max_y: 21.1
+range_x: 55.98, range_y: 42.36
+
+
+SCENE gates_5:
+min_x: -23.55, max_x: 23.52
+min_y: -12.1, max_y: 44.03
+range_x: 47.07, range_y: 56.13
+
+
+SCENE deathCircle_3:
+min_x: -19.98, max_x: 19.19
+min_y: -15.16, max_y: 38.16
+range_x: 39.17, range_y: 53.32
+
+
+SCENE hyang_7:
+min_x: -22.37, max_x: 25.56
+min_y: -18.27, max_y: 49.24
+range_x: 47.93, range_y: 67.51
+
+
+SCENE bookstore_2:
+min_x: -28.58, max_x: 28.52
+min_y: -21.75, max_y: 21.71
+range_x: 57.1, range_y: 43.46
+
+
+SCENE gates_7:
+min_x: -31.73, max_x: 21.73
+min_y: -8.4, max_y: 31.78
+range_x: 53.46, range_y: 40.18
+
+
+SCENE deathCircle_2:
+min_x: -26.97, max_x: 26.77
+min_y: -1.52, max_y: 44.64
+range_x: 53.74, range_y: 46.16
+
+
+SCENE nexus_8:
+min_x: -26.12, max_x: 22.88
+min_y: -8.75, max_y: 45.01
+range_x: 49.0, range_y: 53.76
+
+
+SCENE gates_4:
+min_x: -18.0, max_x: 31.15
+min_y: -22.75, max_y: 61.95
+range_x: 49.15, range_y: 84.7
+
+
+SCENE hyang_6:
+min_x: -37.03, max_x: 36.63
+min_y: -28.24, max_y: 16.04
+range_x: 73.66, range_y: 44.28
+
+
+SCENE nexus_9:
+min_x: -31.55, max_x: 30.99
+min_y: -23.6, max_y: 63.56
+range_x: 62.54, range_y: 87.16
+
+
+SCENE nexus_3:
+min_x: -31.75, max_x: 21.06
+min_y: -20.28, max_y: 54.3
+range_x: 52.81, range_y: 74.58
+
+

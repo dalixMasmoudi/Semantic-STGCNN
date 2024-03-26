@@ -1,0 +1,48 @@
+SCENE zara1:
+min_x: -0.14, max_x: 15.48
+min_y: -0.37, max_y: 12.34
+range_x: 15.62, range_y: 12.71
+
+
+SCENE students003:
+min_x: -0.17, max_x: 15.44
+min_y: -0.22, max_y: 13.85
+range_x: 15.61, range_y: 14.07
+
+
+SCENE uni_examples:
+min_x: -0.43, max_x: 15.48
+min_y: 0.03, max_y: 13.86
+range_x: 15.91, range_y: 13.83
+
+
+SCENE hotel:
+min_x: -2.88, max_x: 3.98
+min_y: -10.31, max_y: 4.31
+range_x: 6.86, range_y: 14.62
+
+
+SCENE students001:
+min_x: -0.46, max_x: 15.47
+min_y: -0.32, max_y: 13.86
+range_x: 15.93, range_y: 14.18
+
+
+SCENE zara3:
+min_x: -0.34, max_x: 15.24
+min_y: 1.27, max_y: 12.71
+range_x: 15.58, range_y: 11.44
+
+
+SCENE eth:
+min_x: -6.57, max_x: 13.38
+min_y: -3.17, max_y: 13.21
+range_x: 19.95, range_y: 16.38
+
+
+SCENE zara2:
+min_x: -0.36, max_x: 15.25
+min_y: 1.27, max_y: 13.94
+range_x: 15.61, range_y: 12.67
+
+

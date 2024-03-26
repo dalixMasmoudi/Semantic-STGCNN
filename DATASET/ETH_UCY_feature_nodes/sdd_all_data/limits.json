@@ -1,0 +1,50 @@
+{
+  "zara1": {
+    "x_min": -0.2,
+    "x_max": 15.5,
+    "y_min": -0.4,
+    "y_max": 12.4
+  },
+  "students003": {
+    "x_min": -0.2,
+    "x_max": 15.5,
+    "y_min": -0.3,
+    "y_max": 13.9
+  },
+  "uni_examples": {
+    "x_min": -0.5,
+    "x_max": 15.5,
+    "y_min": 0.0,
+    "y_max": 13.9
+  },
+  "hotel": {
+    "x_min": -2.9,
+    "x_max": 4.0,
+    "y_min": -10.4,
+    "y_max": 4.4
+  },
+  "students001": {
+    "x_min": -0.5,
+    "x_max": 15.5,
+    "y_min": -0.4,
+    "y_max": 13.9
+  },
+  "zara3": {
+    "x_min": -0.4,
+    "x_max": 15.3,
+    "y_min": 1.2,
+    "y_max": 12.8
+  },
+  "eth": {
+    "x_min": -6.6,
+    "x_max": 13.4,
+    "y_min": -3.2,
+    "y_max": 13.3
+  },
+  "zara2": {
+    "x_min": -0.4,
+    "x_max": 15.3,
+    "y_min": 1.2,
+    "y_max": 14.0
+  }
+}

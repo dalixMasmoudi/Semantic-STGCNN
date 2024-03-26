@@ -1,0 +1,182 @@
+{
+  "gates_6": {
+    "x_min": -18.4,
+    "x_max": 20.8,
+    "y_min": 2.1,
+    "y_max": 49.1
+  },
+  "bookstore_3": {
+    "x_min": -27.5,
+    "x_max": 23.5,
+    "y_min": -20.9,
+    "y_max": 20.7
+  },
+  "nexus_7": {
+    "x_min": -26.4,
+    "x_max": 26.6,
+    "y_min": -18.0,
+    "y_max": 52.2
+  },
+  "gates_3": {
+    "x_min": -24.3,
+    "x_max": 24.7,
+    "y_min": -18.2,
+    "y_max": 50.0
+  },
+  "gates_0": {
+    "x_min": -27.9,
+    "x_max": 24.0,
+    "y_min": -2.4,
+    "y_max": 36.7
+  },
+  "coupa_3": {
+    "x_min": -17.5,
+    "x_max": 31.7,
+    "y_min": -13.6,
+    "y_max": 13.7
+  },
+  "deathCircle_1": {
+    "x_min": -27.6,
+    "x_max": 26.8,
+    "y_min": -20.7,
+    "y_max": 52.9
+  },
+  "deathCircle_0": {
+    "x_min": -28.7,
+    "x_max": 36.8,
+    "y_min": -21.3,
+    "y_max": 55.8
+  },
+  "hyang_4": {
+    "x_min": -23.9,
+    "x_max": 20.4,
+    "y_min": -18.4,
+    "y_max": 6.5
+  },
+  "gates_1": {
+    "x_min": -26.0,
+    "x_max": 26.5,
+    "y_min": -19.7,
+    "y_max": 53.2
+  },
+  "nexus_1": {
+    "x_min": -30.7,
+    "x_max": 30.8,
+    "y_min": -22.8,
+    "y_max": 59.8
+  },
+  "hyang_9": {
+    "x_min": -0.3,
+    "x_max": 10.5,
+    "y_min": -14.4,
+    "y_max": -13.4
+  },
+  "nexus_0": {
+    "x_min": -30.9,
+    "x_max": 26.1,
+    "y_min": -23.3,
+    "y_max": 62.2
+  },
+  "gates_8": {
+    "x_min": -31.7,
+    "x_max": 25.3,
+    "y_min": 4.1,
+    "y_max": 27.4
+  },
+  "nexus_4": {
+    "x_min": -32.6,
+    "x_max": 25.6,
+    "y_min": -21.7,
+    "y_max": 51.6
+  },
+  "hyang_5": {
+    "x_min": -20.8,
+    "x_max": 21.8,
+    "y_min": -15.2,
+    "y_max": 42.4
+  },
+  "bookstore_0": {
+    "x_min": -27.0,
+    "x_max": 27.0,
+    "y_min": -20.3,
+    "y_max": 20.6
+  },
+  "deathCircle_4": {
+    "x_min": -27.1,
+    "x_max": 22.3,
+    "y_min": -13.3,
+    "y_max": 51.7
+  },
+  "bookstore_1": {
+    "x_min": -28.2,
+    "x_max": 27.9,
+    "y_min": -21.3,
+    "y_max": 21.2
+  },
+  "gates_5": {
+    "x_min": -23.6,
+    "x_max": 23.6,
+    "y_min": -12.2,
+    "y_max": 44.1
+  },
+  "deathCircle_3": {
+    "x_min": -20.0,
+    "x_max": 19.2,
+    "y_min": -15.2,
+    "y_max": 38.2
+  },
+  "hyang_7": {
+    "x_min": -22.4,
+    "x_max": 25.6,
+    "y_min": -18.3,
+    "y_max": 49.3
+  },
+  "bookstore_2": {
+    "x_min": -28.6,
+    "x_max": 28.6,
+    "y_min": -21.8,
+    "y_max": 21.8
+  },
+  "gates_7": {
+    "x_min": -31.8,
+    "x_max": 21.8,
+    "y_min": -8.4,
+    "y_max": 31.8
+  },
+  "deathCircle_2": {
+    "x_min": -27.0,
+    "x_max": 26.8,
+    "y_min": -1.6,
+    "y_max": 44.7
+  },
+  "nexus_8": {
+    "x_min": -26.2,
+    "x_max": 22.9,
+    "y_min": -8.8,
+    "y_max": 45.1
+  },
+  "gates_4": {
+    "x_min": -18.1,
+    "x_max": 31.2,
+    "y_min": -22.8,
+    "y_max": 62.0
+  },
+  "hyang_6": {
+    "x_min": -37.1,
+    "x_max": 36.7,
+    "y_min": -28.3,
+    "y_max": 16.1
+  },
+  "nexus_9": {
+    "x_min": -31.6,
+    "x_max": 31.0,
+    "y_min": -23.7,
+    "y_max": 63.6
+  },
+  "nexus_3": {
+    "x_min": -31.8,
+    "x_max": 21.1,
+    "y_min": -20.3,
+    "y_max": 54.4
+  }
+}
