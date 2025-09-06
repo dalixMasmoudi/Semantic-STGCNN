@@ -1,0 +1,72 @@
+MIT License
+
+Copyright (c) 2024 Dali Masmoudi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Academic Use and Citation
+
+If you use this software in academic research, please cite the following work:
+
+```bibtex
+@mastersthesis{masmoudi2024semantic,
+  title={Semantic Spatio-Temporal Graph Convolutional Neural Network for Human Trajectory Prediction},
+  author={Masmoudi, Dali},
+  year={2024},
+  school={[Your University]},
+  type={Master's thesis}
+}
+```
+
+## Third-Party Licenses
+
+This project builds upon and includes code inspired by several open-source projects:
+
+### Social-STGCNN
+- Original work by Abduallah Mohamed et al.
+- Paper: "Social-STGCNN: A Social Spatio-Temporal Graph Convolutional Neural Network for Human Trajectory Prediction"
+- License: MIT License
+
+### ST-GCN
+- Original work by Sijie Yan et al.
+- Paper: "Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition"
+- License: MIT License
+
+### PyTorch
+- Copyright (c) 2016-2023 Facebook, Inc (Meta Platforms)
+- License: BSD 3-Clause License
+
+### NetworkX
+- Copyright (c) 2004-2023, NetworkX Developers
+- License: BSD 3-Clause License
+
+## Dataset Licenses
+
+### Stanford Drone Dataset
+- Copyright (c) Stanford University
+- Please refer to the original dataset license and citation requirements
+- Citation: Robicquet, A., Sadeghian, A., Alahi, A., & Savarese, S. (2016). Learning social etiquette: Human trajectory understanding in crowded scenes. In European conference on computer vision (pp. 549-565). Springer.
+
+## Disclaimer
+
+This software is provided for research and educational purposes. The authors make no warranties about the suitability of this software for any particular purpose and disclaim all liability for any damages arising from its use.
+
+For commercial use or licensing inquiries, please contact the authors.

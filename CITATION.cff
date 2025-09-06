@@ -1,0 +1,99 @@
+# Citation File Format (CFF) for Semantic-STGCNN
+# This file provides standardized citation information for the project
+
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Semantic-STGCNN: A Semantic Spatio-Temporal Graph Convolutional Neural Network for Human Trajectory Prediction"
+version: "1.0.0"
+date-released: "2024-01-01"
+url: "https://github.com/dalixMasmoudi/Semantic-STGCNN"
+repository-code: "https://github.com/dalixMasmoudi/Semantic-STGCNN"
+license: MIT
+
+authors:
+  - family-names: "Masmoudi"
+    given-names: "Dali"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # Replace with actual ORCID
+    email: "your.email@domain.com"
+    affiliation: "Your University"
+
+abstract: >
+  Semantic-STGCNN is a novel deep learning framework for human trajectory 
+  prediction that integrates semantic environmental information with 
+  spatio-temporal graph convolutional neural networks. This work extends 
+  the Social-STGCNN architecture by incorporating rich semantic features 
+  from urban environments to achieve state-of-the-art performance in 
+  trajectory prediction tasks. The framework provides a complete solution 
+  for training, evaluation, and deployment of semantic-enhanced trajectory 
+  prediction models.
+
+keywords:
+  - "trajectory prediction"
+  - "graph neural networks"
+  - "spatio-temporal modeling"
+  - "semantic features"
+  - "pedestrian prediction"
+  - "computer vision"
+  - "deep learning"
+  - "pytorch"
+
+references:
+  - type: article
+    title: "Social-STGCNN: A Social Spatio-Temporal Graph Convolutional Neural Network for Human Trajectory Prediction"
+    authors:
+      - family-names: "Mohamed"
+        given-names: "Abduallah"
+      - family-names: "Qian"
+        given-names: "Kun"
+      - family-names: "Elhoseiny"
+        given-names: "Mohamed"
+      - family-names: "Claudel"
+        given-names: "Christian"
+    journal: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    year: 2020
+    pages: "14424-14432"
+    doi: "10.1109/CVPR42600.2020.01443"
+
+  - type: article
+    title: "Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition"
+    authors:
+      - family-names: "Yan"
+        given-names: "Sijie"
+      - family-names: "Xiong"
+        given-names: "Yuanjun"
+      - family-names: "Lin"
+        given-names: "Dahua"
+    journal: "Proceedings of the AAAI Conference on Artificial Intelligence"
+    volume: 32
+    number: 1
+    year: 2018
+    doi: "10.1609/aaai.v32i1.12328"
+
+  - type: dataset
+    title: "Learning Social Etiquette: Human Trajectory Understanding in Crowded Scenes"
+    authors:
+      - family-names: "Robicquet"
+        given-names: "Alexandre"
+      - family-names: "Sadeghian"
+        given-names: "Amir"
+      - family-names: "Alahi"
+        given-names: "Alexandre"
+      - family-names: "Savarese"
+        given-names: "Silvio"
+    journal: "European Conference on Computer Vision"
+    year: 2016
+    pages: "549-565"
+    publisher: "Springer"
+    doi: "10.1007/978-3-319-46484-8_33"
+
+preferred-citation:
+  type: thesis
+  title: "Semantic Spatio-Temporal Graph Convolutional Neural Network for Human Trajectory Prediction"
+  authors:
+    - family-names: "Masmoudi"
+      given-names: "Dali"
+  institution: "Your University"
+  thesis-type: "Master's thesis"
+  year: 2024
+  url: "https://github.com/dalixMasmoudi/Semantic-STGCNN"

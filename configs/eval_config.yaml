@@ -1,0 +1,151 @@
+# Evaluation Configuration for Semantic-STGCNN
+# This file contains the default evaluation configuration parameters
+
+# Model architecture parameters (should match training config)
+model:
+  name: "semantic_stgcnn"
+  n_stgcnn: 2                    # Number of ST-GCN layers
+  n_txpcnn: 5                    # Number of temporal prediction CNN layers
+  input_feat: 21                 # Number of input features (with semantic features)
+  output_feat: 2                 # Number of output features (x, y coordinates)
+  seq_len: 8                     # Length of input sequence
+  pred_seq_len: 12               # Length of prediction sequence
+  kernel_size: 3                 # Temporal kernel size
+
+# Evaluation-specific training parameters
+training:
+  batch_size: 1                  # Batch size for evaluation (typically 1 for detailed analysis)
+
+# Dataset parameters
+dataset:
+  name: "sdd"                   # Dataset name
+  data_dir: "./DATASET/SDD_WITH_FEATURES_SPLITTED"  # Path to test dataset
+  obs_len: 8                    # Number of observed time steps
+  pred_len: 12                  # Number of predicted time steps
+  skip: 1                       # Number of frames to skip
+  threshold: 0.002              # Threshold for non-linear trajectory detection
+  min_ped: 1                    # Minimum number of pedestrians per sequence
+  delim: "tab"                  # Delimiter in dataset files
+  norm_lap_matr: true           # Whether to use normalized Laplacian matrix
+
+# Comprehensive evaluation parameters
+evaluation:
+  metrics: ["ade", "fde", "mse", "mae"]  # Evaluation metrics to compute
+  save_predictions: true        # Whether to save predictions
+  visualize: true               # Whether to create visualizations
+  
+  # Detailed analysis options
+  per_scene_analysis: true      # Whether to analyze performance per scene
+  per_pedestrian_analysis: true # Whether to analyze performance per pedestrian
+  temporal_analysis: true       # Whether to analyze performance over time
+  
+  # Visualization options
+  plot_sample_trajectories: true  # Whether to plot sample trajectories
+  num_sample_plots: 10          # Number of sample trajectory plots
+  plot_error_distribution: true # Whether to plot error distributions
+  plot_performance_metrics: true # Whether to plot performance metrics
+  
+  # Statistical analysis
+  confidence_intervals: true    # Whether to compute confidence intervals
+  significance_tests: true      # Whether to perform significance tests
+  
+  # Comparison with baselines
+  compare_with_baselines: false # Whether to compare with baseline methods
+  baseline_results: {}          # Baseline results for comparison
+
+# Data loading parameters (optimized for evaluation)
+dataloader:
+  num_workers: 1                # Number of data loader workers (reduced for evaluation)
+  pin_memory: true              # Whether to pin memory
+  shuffle_train: false          # No shuffling for evaluation
+  shuffle_val: false            # No shuffling for evaluation
+  drop_last: false              # Don't drop last batch for complete evaluation
+
+# Logging parameters
+logging:
+  level: "INFO"                 # Logging level
+  log_dir: "./evaluation_logs"  # Directory for log files
+  detailed_logging: true        # Whether to enable detailed logging
+
+# Output parameters
+output:
+  output_dir: "./evaluation_results"  # Output directory for evaluation results
+  save_detailed_results: true   # Whether to save detailed results
+  save_summary_report: true     # Whether to save summary report
+  
+  # File formats
+  save_csv: true                # Whether to save results in CSV format
+  save_json: true               # Whether to save results in JSON format
+  save_plots: true              # Whether to save plots
+
+# Hardware parameters
+hardware:
+  device: "auto"                # Device to use (cpu, cuda, auto)
+  mixed_precision: false        # Disable mixed precision for evaluation accuracy
+
+# Reproducibility
+reproducibility:
+  seed: 42                      # Random seed for reproducible evaluation
+  deterministic: true           # Use deterministic algorithms
+
+# Semantic features (should match training)
+semantic:
+  enabled: true                 # Whether to use semantic features
+  feature_dim: 17               # Dimension of semantic features
+  semantic_map_dir: "./DATASET/SDD_semantic_maps_CORRECTED"
+  normalize_features: true      # Whether to normalize semantic features
+
+# Graph construction (should match training)
+graph:
+  adjacency_type: "inverse_distance"  # Type of adjacency matrix
+  normalize_adjacency: true     # Whether to normalize adjacency matrix
+  self_loops: false             # Whether to include self loops
+  directed: false               # Whether graph is directed
+
+# Visualization parameters
+visualization:
+  plot_trajectories: true       # Whether to plot trajectories
+  plot_predictions: true        # Whether to plot predictions
+  plot_attention: false         # Whether to plot attention weights
+  save_plots: true              # Whether to save plots
+  plot_format: "png"            # Format for saved plots
+  dpi: 300                      # DPI for saved plots
+  
+  # Color schemes and styling
+  color_scheme: "default"       # Color scheme for plots
+  figure_size: [12, 8]          # Default figure size
+  font_size: 12                 # Font size for plots
+  
+  # Animation options
+  create_animations: false      # Whether to create trajectory animations
+  animation_fps: 5              # Frames per second for animations
+  animation_duration: 3         # Duration of animations in seconds
+
+# Error analysis parameters
+error_analysis:
+  enabled: true                 # Whether to perform detailed error analysis
+  
+  # Error categorization
+  categorize_by_speed: true     # Categorize errors by pedestrian speed
+  categorize_by_density: true   # Categorize errors by crowd density
+  categorize_by_scene: true     # Categorize errors by scene type
+  
+  # Speed thresholds for categorization
+  speed_thresholds: [0.5, 1.0, 2.0]  # m/s thresholds for speed categories
+  
+  # Density thresholds for categorization
+  density_thresholds: [2, 5, 10]     # Number of pedestrians for density categories
+
+# Performance benchmarking
+benchmarking:
+  enabled: false                # Whether to perform performance benchmarking
+  measure_inference_time: true  # Whether to measure inference time
+  measure_memory_usage: true    # Whether to measure memory usage
+  num_benchmark_runs: 100       # Number of runs for benchmarking
+  
+# Model interpretation
+interpretation:
+  enabled: false                # Whether to perform model interpretation
+  feature_importance: false     # Whether to analyze feature importance
+  attention_analysis: false     # Whether to analyze attention patterns
+  gradient_analysis: false      # Whether to perform gradient analysis
