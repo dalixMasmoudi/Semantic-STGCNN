@@ -263,8 +263,6 @@ If you use this work in your research, please cite:
   title={Semantic Spatio-Temporal Graph Convolutional Neural Network for Human Trajectory Prediction},
   author={Masmoudi, Dali},
   year={2024},
-  school={[Your University]},
-  type={Master's thesis}
 }
 ```
 
